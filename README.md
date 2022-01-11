@@ -1,4 +1,4 @@
-<h1>GeoMat 3D Maths, Animation and Physics - Game Engine</h1>
+<h1>GeoMat</h1> <h5>3D Maths, Animation and Physics - Game Engine</h5>
 
 <i>geomat_v_0.9</i>
 The geomat framework is a java based 3D rendering framework to create 3D animations, physically based animations, matrix and analytic functions representations in 3D, simulate raytracing, display colorspaces, apply blending and skinning to different default implemented meshes, display differential equations with pointclouds, diffent cameras, ui elements, sounds, lights, image and texture processing, 3D text and 2D text
