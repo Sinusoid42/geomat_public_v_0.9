@@ -77,7 +77,10 @@ SOURCES:
       and
         -Djava.awt.headless=true
       
-      To your eclipse runtime configuration using <i>Project => Run As => Run Configuration</i>
+      To your eclipse runtime configuration using 
+   <i>
+          Project => Run As => Run Configuration
+   </i>
       
   <b>Windows</b>
     On Windows, to properly control camera movement, the openGL interface and glfw callbacks give different scaling values such that scrolling is calculated          differently
