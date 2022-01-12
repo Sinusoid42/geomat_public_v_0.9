@@ -51,3 +51,33 @@ SOURCES:
 
   The sources are code i am working on my own at the moment, i am planning to make the sources open to the public, though as of right now this is a study project i am making available to be tested from outside using the eclipse project and jars containing the native libraries and java implementations
   The sources are approx. 70k lines of code atm
+  
+  
+  <h2>To Run and use this framework</h2>
+  Run <i>git clone https://github.com/Sinusoid42/geomat_public_v_0.9</i> in your local shell
+  Import the created folder as an Eclipse Project from your local file system and create create a TestClient.java file in your source folder
+  
+  To create a running application by extending the abstract <i>PlaygroundTemplate</i> class with its single <i>public void setup(){}</i> method
+  To Run your application create a new instance of your class eg.
+    <i> public class myFrameworkClass extends PlaygroundTemplate{
+        
+        public static void main(String[] args){
+          new myFrameworkClass();
+        }
+  
+        public void setup(){.....}
+    }</i>
+
+  <b>MAC OS X</b>
+    To run your application on mac os x, you will need to run your application with some jvm commands to properly run openGL 
+    
+      Add:
+        -XstartOnFirstThread
+      and
+        -Djava.awt.headless=true
+      
+      To your eclipse runtime configuration using <i>Project => Run As => Run Configuration</i>
+      
+  <b>Windows</b>
+    On Windows, to properly control camera movement, the openGL interface and glfw callbacks give different scaling values such that scrolling is calculated          differently
+    To compensate for that, use the <i>getListenerUtils().setWinFix(enabled);</i> method available through the GLFWListenerUtils class implementation
