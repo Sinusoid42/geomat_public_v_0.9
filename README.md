@@ -67,9 +67,9 @@ SOURCES:
   
         public void setup(){.....}
         }
-    </i>
+  
 
-  <b>MAC OS X</b>
+  </i><b>MAC OS X</b>
     To run your application on mac os x, you will need to run your application with some jvm commands to properly run openGL 
     
       Add:
