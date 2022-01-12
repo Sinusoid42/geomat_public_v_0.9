@@ -78,7 +78,7 @@ SOURCES:
         -Djava.awt.headless=true
       
       To your eclipse runtime configuration using 
-        Project => Run As => Run Configuration
+        Project => Run As => Run Configurations => VM Arguments
 
       
   <b>Windows</b>
