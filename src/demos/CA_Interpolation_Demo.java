@@ -30,9 +30,6 @@ public class CA_Interpolation_Demo extends PlaygroundTemplate{
 
 	public void setup() {
         
-        
-        System.out.println("Hello Geomat!");
-        
 		setScene(Scene.getDefault(new Camera(getListenerUtils(), CameraController.getOrbitController()).setVisible(true)));
 		getScene().addDefaultsMeshContainer(MeshUtils.getUserGrid().set(FLAGS.GM_MESH_RENDERER, GM_TRUE).setDiffuseColor(new Vec3(0.4f,0.4f,0.4f)));
 		getScene().setBackgroundColor(new Vec4(0.05f,0.05f,0.05f,1));
